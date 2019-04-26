@@ -1,0 +1,58 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/chiq/muscle-memory/muscle-memory.csproj": {}
+  },
+  "projects": {
+    "/home/chiq/muscle-memory/muscle-memory.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/chiq/muscle-memory/muscle-memory.csproj",
+        "projectName": "muscle-memory",
+        "projectPath": "/home/chiq/muscle-memory/muscle-memory.csproj",
+        "packagesPath": "/home/chiq/.nuget/packages/",
+        "outputPath": "/home/chiq/muscle-memory/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/home/chiq/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    }
+  }
+}
